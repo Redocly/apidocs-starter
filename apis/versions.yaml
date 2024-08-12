@@ -1,0 +1,7 @@
+default: 'v1_1'
+versions:
+  - version: 'v1_0'
+    name: "1.0"
+  - version: 'v1_1'
+    name: "1.1"
+
