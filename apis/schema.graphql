@@ -1,0 +1,19 @@
+type Query {
+  upcomingEvents: [Event!]!
+}
+
+type Event {
+  name: String!
+  date: String!
+  location: Location
+}
+
+type Location {
+  name: String!
+  weather: WeatherInfo
+}
+
+type WeatherInfo {
+  temperature: Float
+  description: String
+}

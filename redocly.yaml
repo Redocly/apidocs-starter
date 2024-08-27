@@ -1,18 +1,17 @@
-theme:
-  openapi:
-    showExtensions: true
-    jsonSamplesExpandLevel: 5
-    codeSamples:
-      skipOptionalParameters: true
-      languages:
-        - lang: 'curl'
-          label: 'cURL'
-        - lang: 'Python'
-        - lang: 'JavaScript'
-          label: 'JS'
-        - lang: 'Go'
-        - lang: 'Java'
-        - lang: 'C#'
+openapi:
+  showExtensions: true
+  jsonSamplesExpandLevel: 5
+  codeSamples:
+    skipOptionalParameters: true
+    languages:
+      - lang: 'curl'
+        label: 'cURL'
+      - lang: 'Python'
+      - lang: 'JavaScript'
+        label: 'JS'
+      - lang: 'Go'
+      - lang: 'Java'
+      - lang: 'C#'
 
 ignore:
   - CONTRIBUTING.md
