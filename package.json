@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Redocly/apidocs-starter#readme",
   "dependencies": {
-    "@redocly/redoc": "^0.94.2"
+    "@redocly/redoc": "^0.102.0"
   }
 }
